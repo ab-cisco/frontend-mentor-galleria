@@ -1,0 +1,17 @@
+@import "../../../../const/styles/colors.module.scss";
+
+:local {
+  .progress {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    height: 1px;
+
+    &Active {
+      background-color: $black;
+    }
+
+    &Inactive {
+      background-color: $normalGray;
+    }
+  }
+}

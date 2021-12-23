@@ -1,0 +1,52 @@
+@import "../../../const/styles/colors.module.scss";
+
+:local {
+  .card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+    &Body {
+      position: relative;
+      height: 100%;
+
+      &:hover {
+        background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0.5)
+        );
+      }
+    }
+
+    &Title {
+      position: absolute;
+      width: -webkit-fill-available;
+      padding: 32px;
+      bottom: 0;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      color: $white;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.0001),
+        rgba(0, 0, 0, 0.8)
+      );
+      line-height: 30px;
+    }
+
+    &Name {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    &Artist {
+      font-size: 13px;
+      padding-top: 7px;
+    }
+  }
+}

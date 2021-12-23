@@ -1,0 +1,14 @@
+:local {
+  .masonryGrid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40px;
+  }
+
+  @media (max-width: 375px) {
+    .masonryGrid {
+      margin: 24px;
+    }
+  }
+}

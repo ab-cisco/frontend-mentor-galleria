@@ -1,0 +1,70 @@
+@import "../../../../const/styles/colors.module.scss";
+
+:local {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 25px 40px;
+
+    &Buttons {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 40px;
+      align-items: center;
+
+      &Link {
+        width: 25.17px;
+        height: 24px;
+      }
+
+      &Icon {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &Title {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &Name {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    &Artist {
+      font-size: 13px;
+      line-height: 16px;
+      opacity: 0.75;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .navigation {
+      padding: 17px 24px;
+
+      &Buttons {
+        grid-column-gap: 20px;
+
+        &Link {
+          width: 16.78px;
+          height: 16px;
+        }
+      }
+
+      &Name {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      &Artist {
+        padding-top: 9px;
+        font-size: 10px;
+        line-height: 12px;
+      }
+    }
+  }
+}
