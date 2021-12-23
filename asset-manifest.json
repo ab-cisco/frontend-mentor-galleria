@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.c743342f.chunk.css",
-    "main.js": "/static/js/main.06dbe4f3.chunk.js",
-    "main.js.map": "/static/js/main.06dbe4f3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9d623c26.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9d623c26.js.map",
-    "static/js/2.c90a94e9.chunk.js": "/static/js/2.c90a94e9.chunk.js",
-    "static/js/2.c90a94e9.chunk.js.map": "/static/js/2.c90a94e9.chunk.js.map",
-    "static/js/3.7181996a.chunk.js": "/static/js/3.7181996a.chunk.js",
-    "static/js/3.7181996a.chunk.js.map": "/static/js/3.7181996a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.c743342f.chunk.css.map": "/static/css/main.c743342f.chunk.css.map",
-    "static/js/2.c90a94e9.chunk.js.LICENSE.txt": "/static/js/2.c90a94e9.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/LibreBaskerville-Regular.09db4d95.woff2",
-    "static/media/icon-back-button.53213882.svg": "/static/media/icon-back-button.53213882.svg",
-    "static/media/icon-next-button.b6581839.svg": "/static/media/icon-next-button.b6581839.svg",
-    "static/media/icon-view-image.5d93085b.svg": "/static/media/icon-view-image.5d93085b.svg",
-    "static/media/logo.0a6c0727.svg": "/static/media/logo.0a6c0727.svg"
+    "main.css": "/frontend-mentor-galleria/static/css/main.e8d7eb13.chunk.css",
+    "main.js": "/frontend-mentor-galleria/static/js/main.06dbe4f3.chunk.js",
+    "main.js.map": "/frontend-mentor-galleria/static/js/main.06dbe4f3.chunk.js.map",
+    "runtime-main.js": "/frontend-mentor-galleria/static/js/runtime-main.de1785de.js",
+    "runtime-main.js.map": "/frontend-mentor-galleria/static/js/runtime-main.de1785de.js.map",
+    "static/js/2.c90a94e9.chunk.js": "/frontend-mentor-galleria/static/js/2.c90a94e9.chunk.js",
+    "static/js/2.c90a94e9.chunk.js.map": "/frontend-mentor-galleria/static/js/2.c90a94e9.chunk.js.map",
+    "static/js/3.7181996a.chunk.js": "/frontend-mentor-galleria/static/js/3.7181996a.chunk.js",
+    "static/js/3.7181996a.chunk.js.map": "/frontend-mentor-galleria/static/js/3.7181996a.chunk.js.map",
+    "index.html": "/frontend-mentor-galleria/index.html",
+    "static/css/main.e8d7eb13.chunk.css.map": "/frontend-mentor-galleria/static/css/main.e8d7eb13.chunk.css.map",
+    "static/js/2.c90a94e9.chunk.js.LICENSE.txt": "/frontend-mentor-galleria/static/js/2.c90a94e9.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/frontend-mentor-galleria/static/media/LibreBaskerville-Regular.09db4d95.woff2",
+    "static/media/icon-back-button.53213882.svg": "/frontend-mentor-galleria/static/media/icon-back-button.53213882.svg",
+    "static/media/icon-next-button.b6581839.svg": "/frontend-mentor-galleria/static/media/icon-next-button.b6581839.svg",
+    "static/media/icon-view-image.5d93085b.svg": "/frontend-mentor-galleria/static/media/icon-view-image.5d93085b.svg",
+    "static/media/logo.0a6c0727.svg": "/frontend-mentor-galleria/static/media/logo.0a6c0727.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d623c26.js",
+    "static/js/runtime-main.de1785de.js",
     "static/js/2.c90a94e9.chunk.js",
-    "static/css/main.c743342f.chunk.css",
+    "static/css/main.e8d7eb13.chunk.css",
     "static/js/main.06dbe4f3.chunk.js"
   ]
 }
