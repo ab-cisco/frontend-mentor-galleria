@@ -13,8 +13,11 @@ const App = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path=':pictureName' element={<PicturePage />} />
+        <Route path='/frontend-mentor-galleria' element={<HomePage />} />
+        <Route
+          path='frontend-mentor-galleria/:pictureName'
+          element={<PicturePage />}
+        />
       </Routes>
       <Footer />
     </BrowserRouter>
