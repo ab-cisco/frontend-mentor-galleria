@@ -16,10 +16,7 @@ const Header = () => {
             <span className={styles.slideshow}>START SLIDESHOW</span>
           </Link>
         ) : (
-          <Link
-            to={"/frontend-mentor-galleria"}
-            className={styles.slideshowLink}
-          >
+          <Link to='/frontend-mentor-galleria' className={styles.slideshowLink}>
             <span className={styles.slideshow}>STOP SLIDESHOW</span>
           </Link>
         )}

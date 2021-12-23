@@ -15,7 +15,7 @@ const App = () => {
       <Routes>
         <Route path='/frontend-mentor-galleria' element={<HomePage />} />
         <Route
-          path='frontend-mentor-galleria/:pictureName'
+          path='/frontend-mentor-galleria/:pictureName'
           element={<PicturePage />}
         />
       </Routes>
