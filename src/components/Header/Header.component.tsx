@@ -12,7 +12,10 @@ const Header = () => {
           <img src={Logo} className={styles.logoIcon} alt='logo' />
         </Link>
         {location.pathname === "/frontend-mentor-galleria/" ? (
-          <Link to={"starry-night"} className={styles.slideshowLink}>
+          <Link
+            to={"/frontend-mentor-galleria/starry-night"}
+            className={styles.slideshowLink}
+          >
             <span className={styles.slideshow}>START SLIDESHOW</span>
           </Link>
         ) : (
