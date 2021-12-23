@@ -3,11 +3,11 @@ export const handleColumnCount = (width: number): number => {
     return 1;
   }
 
-  if (width >= 375 && width <= 768) {
+  if (width > 375 && width <= 768) {
     return 2;
   }
 
-  if (width >= 768 && width <= 1440) {
+  if (width > 768 && width <= 1440) {
     return 4;
   }
 
