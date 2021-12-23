@@ -8,15 +8,18 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.content}>
-        <Link to='/frontend-mentor-galleria' className={styles.logo}>
+        <Link to='/frontend-mentor-galleria/' className={styles.logo}>
           <img src={Logo} className={styles.logoIcon} alt='logo' />
         </Link>
-        {location.pathname === "/frontend-mentor-galleria" ? (
+        {location.pathname === "/frontend-mentor-galleria/" ? (
           <Link to={"starry-night"} className={styles.slideshowLink}>
             <span className={styles.slideshow}>START SLIDESHOW</span>
           </Link>
         ) : (
-          <Link to='/frontend-mentor-galleria' className={styles.slideshowLink}>
+          <Link
+            to='/frontend-mentor-galleria/'
+            className={styles.slideshowLink}
+          >
             <span className={styles.slideshow}>STOP SLIDESHOW</span>
           </Link>
         )}

@@ -9,7 +9,7 @@ import styles from "./Footer.module.scss";
 const Footer = () => {
   const location = useLocation();
 
-  if (location.pathname === "/frontend-mentor-galleria") return null;
+  if (location.pathname === "/frontend-mentor-galleria/") return null;
 
   const pcitureName = location.pathname.slice(1);
   const picture = getPicture(pcitureName);

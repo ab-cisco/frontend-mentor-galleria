@@ -13,7 +13,7 @@ const App = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/frontend-mentor-galleria' element={<HomePage />} />
+        <Route path='/frontend-mentor-galleria/' element={<HomePage />} />
         <Route
           path='/frontend-mentor-galleria/:pictureName'
           element={<PicturePage />}
