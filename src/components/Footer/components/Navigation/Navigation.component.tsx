@@ -23,14 +23,20 @@ const Navigation = ({
         <div className={styles.navigationArtist}>{artistName}</div>
       </div>
       <div className={styles.navigationButtons}>
-        <Link to={`/${prevPicture}`} className={styles.navigationButtonsLink}>
+        <Link
+          to={`/frontend-mentor-galleria/${prevPicture}`}
+          className={styles.navigationButtonsLink}
+        >
           <img
             src={BackButtonImage}
             className={styles.navigationButtonsIcon}
             alt='prevButton'
           />
         </Link>
-        <Link to={`/${nextPicture}`} className={styles.navigationButtonsLink}>
+        <Link
+          to={`/frontend-mentor-galleria/${nextPicture}`}
+          className={styles.navigationButtonsLink}
+        >
           <img
             src={NextButtonImage}
             className={styles.navigationButtonsIcon}

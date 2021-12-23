@@ -9,10 +9,9 @@ import styles from "./Footer.module.scss";
 const Footer = () => {
   const location = useLocation();
 
-  console.log(location.pathname);
-  if (location.pathname === "/frontend-mentor-galleria") return null;
+  if (location.pathname === "/frontend-mentor-galleria/") return null;
 
-  const pcitureName = location.pathname.slice(1);
+  const pcitureName = location.pathname.split("/")[2];
   const picture = getPicture(pcitureName);
 
   if (picture === undefined) return null;
